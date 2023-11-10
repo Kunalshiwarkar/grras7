@@ -1,7 +1,6 @@
 pipeline {
 	agent any 
-	triggers {
-          pollSCM '* * * * *'
+
 }
        parameters {
 		choice(name: 'ENVIRONMENT', choices: ['QA','UAT'], description: 'Pick Environment value')
