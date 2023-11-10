@@ -12,7 +12,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/grras/slave-dir/apache-maven-3.9.5/bin/mvn instal'
+			  sh '/home/kunal/Documents/Devops_software/tar/apache-maven-3.9.5/bin/mvn instal'
 	                 }}
 		stage('Deployment'){
 		   steps {
